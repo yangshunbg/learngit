@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        (function () {
+            var width = window.screen.width;
+            var fixedW = 660;
+            var scale = width / fixedW;
+            var meta = document.createElement('meta');
+            meta.setAttribute('name','viewport');
+            meta.setAttribute('content','width='+fixedW+',initial-scale='+scale+',maximum-scale='+scale+',user-scalable=no');
+            document.head.appendChild(meta);
+        })();
+    </script>
+    <title>yangyang</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/news.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/cssTransform.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/getajax.js"></script>
+    <script src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" type="text/ecmascript"></script>
+</head>
+<body>
+    <!--网页头部开始-->
+    <header class="header">
+        <div class="headFix">
+            <!--头部上-->
+            <div class="hd-nav borderP">
+                <!--用户登录-->
+                <div class="hd-nav-user fl hd-btn">
+                    <a href="#"></a>
+                </div>
+                <!--用户搜索-->
+                <div class="search fr hd-btn">
+                    <a href="#"></a>
+                </div>
+                <!--省份-->
+                <div class="hd-nav-province">
+                    <!--logo-->
+                    <div class="hd-logo fl">
+                        <a href=""></a>
+                    </div>
+                    <!--位置-->
+                    <div class="hd-location fr">
+                        <a href="">
+                            <span id="location">湖南</span>
+                            <script src="js/location.js"></script>
+                            <i class="fr"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--头部下-->
+            <div class="hd-move">
+                <ul >
+                    <li class="active"><a href="#"><span>首页</span></a></li>
+                    <li><a href="#"><span>唯品国际</span></a></li>
+                    <li><a href="#"><span>美妆</span></a></li>
+                    <li><a href="#"><span>男士</span></a></li>
+                    <li><a href="#"><span>女装</span></a></li>
+                    <li><a href="#"><span>鞋包</span></a></li>
+                    <li><a href="#"><span>女装</span></a></li>
+                    <li><a href="#"><span>鞋包</span></a></li>
+                    <li><a href="#"><span>运动</span></a></li>
+                    <li><a href="#"><span>家具家电</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="place"></div>
+    </header>
+    <!--网页头部结束-->
+    <!--网页主体部分开始-->
+    <section class="main">
+        <!--轮播图部分-->
+        <section class="slide ">
+            <ul class="clearFix slide">
+                <li><img src="img/slide1.jpg" alt="" width="100%" height="100%"/></li>
+                <li><img src="img/slide2.jpg" alt="" width="100%" height="100%"/></li>
+                <li><img src="img/slide3.jpg" alt="" width="100%" height="100%"/></li>
+            </ul>
+            <div class="tab">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+        <section class="tip">
+            <a href="#">
+                <img src="img/tip.jpg" alt="" width="100%";height="100%">
+            </a>
+        </section>
+        <!--分类导航-->
+        <section class="productClass">
+            <ul class="clearFix">
+                <li><a href=""><img src="img/productClass1.jpg" alt="" width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass2.jpg" alt=""  width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass3.jpg" alt=""  width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass4.jpg" alt=""  width="100%" height="100%"></a></li>
+            </ul>
+            <ul  class="clearFix">
+                <li><a href=""><img src="img/productClass5.jpg" alt=""  width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass6.jpg" alt=""  width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass7.jpg" alt=""  width="100%" height="100%"></a></li>
+                <li><a href=""><img src="img/productClass8.jpg" alt=""  width="100%" height="100%"></a></li>
+            </ul>
+        </section>
+        <!--文章列表-->
+        <div class="WX_content">
+            <div class="WX_navbar">
+                <div class="navbar-item navbar-item_on">文章列表</div>
+                <div class="navbar-item">微信应用</div>
+            </div>
+            <div class="page_wrap">
+                <div class="page page_on">
+                    <a href="https://mp.weixin.qq.com/s?__biz=MzA3MTE0NDkxNg==&amp;idx=6&amp;mid=547462968&amp;sn=e401cd6a79031cc9b7782102f2d2513e&amp;qb_mtt_show_type=1" class="weui-cell weui-cell_access clearFix"><div class="weui-cells"><div class="weui-cell__hd"><img src="https://zxpic.gtimg.com/infonew/0/wechat_pics_-546617.jpg/640" width="100%" height="100%" alt=""></div><div class="weui-cell__bd"><p class="weui-grid__label">入夏买水果，啥“面相”的水果更好吃？</p></div><div class="weui-cell__ft">&gt;</div></div></a><a href="https://mp.weixin.qq.com/s?__biz=MjM5NTAyODc2MA==&amp;idx=7&amp;mid=228251620&amp;sn=b1a54fa12381b617403f1b97685b79da&amp;qb_mtt_show_type=1" class="weui-cell weui-cell_access clearFix"><div class="weui-cells"><div class="weui-cell__hd"><img src="https://zxpic.gtimg.com/infonew/0/wechat_pics_-555483.jpg/640" width="100%" height="100%" alt=""></div><div class="weui-cell__bd"><p class="weui-grid__label">没胆量莫装逼，不信张家界玻璃桥上见高低！</p></div><div class="weui-cell__ft">&gt;</div></div></a><a href="https://mp.weixin.qq.com/s?__biz=MjM5MjIyMTE4MA==&amp;idx=4&amp;mid=209279837&amp;sn=f12f97fc6e481b5f7fbc516ac134e487&amp;qb_mtt_show_type=1" class="weui-cell weui-cell_access clearFix"><div class="weui-cells"><div class="weui-cell__hd"><img src="https://zxpic.gtimg.com/infonew/0/wechat_pics_-558807.jpg/640" width="100%" height="100%" alt=""></div><div class="weui-cell__bd"><p class="weui-grid__label">考考你智商，看出44个是鬼才！</p></div><div class="weui-cell__ft">&gt;</div></div></a><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODI3ODI4MA==&amp;idx=5&amp;mid=376191301&amp;sn=103e36552b5ac1bfe21433191fa675e6&amp;qb_mtt_show_type=1" class="weui-cell weui-cell_access clearFix"><div class="weui-cells"><div class="weui-cell__hd"><img src="https://zxpic.gtimg.com/infonew/0/wechat_pics_-670194.jpg/640" width="100%" height="100%" alt=""></div><div class="weui-cell__bd"><p class="weui-grid__label">5个让你丢命的坏习惯！</p></div><div class="weui-cell__ft">&gt;</div></div></a><a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEzNzYzOA==&amp;idx=6&amp;mid=213743008&amp;sn=47345f76eb994f70a132573bdc0819fa&amp;qb_mtt_show_type=1" class="weui-cell weui-cell_access clearFix"><div class="weui-cells"><div class="weui-cell__hd"><img src="https://zxpic.gtimg.com/infonew/0/wechat_pics_-672650.jpg/640" width="100%" height="100%" alt=""></div><div class="weui-cell__bd"><p class="weui-grid__label">这些主流的小型SUV乞丐版值不值得买</p></div><div class="weui-cell__ft">&gt;</div></div></a></div>
+                <div class="page">
+                    <div class="weui-grids">
+                        <a href="javascript:;" class="weui-grid" id="initshow">
+                            <div class="weui-grid__icon">
+                                <img src="img/order.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">个人档案</p>
+                        </a>
+                        <a href="javascript:;" id="picUpload " class="weui-grid">
+                            <div class="weui-grid__icon">
+                                <img src="img/picUpload.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">图片拍照</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="ME">
+                            <div class="weui-grid__icon">
+                                <img src="img/press.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">我的账单</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="initshare">
+                            <div class="weui-grid__icon">
+                                <img src="img/share.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">精彩分享</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="wxgame">
+                            <div class="weui-grid__icon">
+                                <img src="img/game.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">娱乐游戏</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="record">
+                            <div class="weui-grid__icon">
+                                <img src="img/record.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">录音翻译</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="map">
+                            <div class="weui-grid__icon">
+                                <img src="img/map.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">实时地图</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="check">
+                            <div class="weui-grid__icon">
+                                <img src="img/check.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">图片预览</p>
+                        </a>
+                        <a href="javascript:;" class="weui-grid" id="scan">
+                            <div class="weui-grid__icon">
+                                <img src="img/scan.png" alt="">
+                            </div>
+                            <p class="weui-grid__label">微信扫码</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--新品优惠打折-->
+        <section class="discount">
+            <a href="#" class="title"><img src="img/discount.jpg" alt="" width="100%" height="100%"></a>
+            <dl>
+                <div class="dis-l"><a href="#"><img src="img/discount1.jpg" alt="" width="100%" height="100%"></a></div>
+                <div class="dis-r">
+                    <div>
+                        <a href="#"><img src="img/discount2.jpg" alt="" width="100%" height="100%"></a>
+                        <a href="#"><img src="img/discount3.jpg" alt="" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </dl>
+        </section>
+        <!--化妆品-->
+        <section class="makeUp pub-buy">
+            <a href=""><img src="img/makeUp.jpg" alt="" width="100%" height="100%"></a>
+            <ul class="clearFix">
+                <li><img src="img/makeUp1.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/makeUp2.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/makeUp3.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/makeUp4.jpg" alt="" width="100%" height="100%"></li>
+            </ul>
+        </section>
+        <!--大会特惠-->
+        <section class="crem pub-buy">
+            <a href=""><img src="img/cream.jpg" alt="" width="100%" height="100%"></a>
+            <ul class="clearFix">
+                <li><img src="img/cream1.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/cream2.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/cream3.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/cream4.jpg" alt="" width="100%" height="100%"></li>
+            </ul>
+        </section>
+    </section>
+    <!--内衣开始-->
+        <section class="bras pub-buy">
+            <a href=""><img src="img/bras.jpg" alt="" width="100%" height="100%"></a>
+            <ul class="clearFix">
+                <li><img src="img/bras1.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/bras2.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/bras3.jpg" alt="" width="100%" height="100%"></li>
+                <li><img src="img/bras4.jpg" alt="" width="100%" height="100%"></li>
+            </ul>
+        </section>
+        <section class="adMap">
+            <a href=""><img src="img/ad1.jpg" alt="" width="100%" height="100%"></a>
+        </section>
+         <section class="skin">
+             <ul class="clearFix">
+                 <li><a href=""><img src="img/skin1.jpg" alt="" width="100%" height="100%"></a></li>
+                 <li><a href=""><img src="img/skin2.jpg" alt="" width="100%" height="100%"></a></li>
+                 <li><a href=""><img src="img/skin3.jpg" alt="" width="100%" height="100%"></a></li>
+             </ul>
+         </section>
+         <section class="found">
+             <ul class="clearFix">
+                 <li><a href=""><img src="img/found1.gif" alt="" width="100%" height="100%"></a></li>
+                 <li><a href=""><img src="img/found2.jpg" alt="" width="100%" height="100%"></a></li>
+                 <li><a href=""><img src="img/found2.jpg" alt="" width="100%" height="100%"></a></li>
+             </ul>
+         </section>
+    <!--内衣结束-->
+    <!--热销好货开始-->
+         <section class="hotGoodShop">
+             <a href="" class="top"><img src="img/hotGoodShop1.jpg" alt="" width="100%" height="100%"></a>
+             <ul>
+                 <li><a href=""><img src="img/hotGoodShop2.jpg" alt="" width="100%" height="100%"></a></li></li>
+             </ul>
+         </section>
+        <!--app下载-->
+        <section class="app clearFix">
+            <div class="vipBg fl"></div>
+            <div class="appdownload fr">
+                <a href="">下载</a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="login clearFix">
+                <div class="fl">
+                    <a href="#">唯品会首页</a>
+                    <a href="#">关于我们</a>
+                </div>
+                <div class="fr">
+                    <a href="">登录</a>
+                    <a href="">注册</a>
+                </div>
+            </div>
+            <p>Copyright © 2008-2016 m.vip.com, All Rights Reserved 粤ICP备08114786号</p>
+            <p><img src="img/ghs.png" width="35" height="35" alt=""><span>粤公网安备 44010302000068号</span></p>
+        </footer>
+    <!--热销好货介绍结束-->
+    <!--网页主体部分结束-->
+<script>
+
+</script>
+</body>
+</html>

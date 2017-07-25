@@ -1,0 +1,158 @@
+a{
+    color:#555;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.borderB{
+    border: 1px solid blue;
+}
+.borderR{
+    border: 1px solid red;
+}
+.borderP{
+    border: 1px solid purple;
+}
+.clearFix::after{
+    content: '';
+    display: block;
+    clear: both;
+    zoom:1;
+    overflow: hidden;
+}
+
+.header{
+    max-width: 660px;
+}
+.header .place{
+    height: 142px;
+}
+
+.header .headFix .hd-nav{
+    height: 74px;
+
+}
+.header .headFix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fbfbfa;
+}
+.header .headFix .hd-nav .hd-nav-user{
+    padding: 18px 0 0 17px;
+}
+.header .headFix .hd-nav .search{
+    padding: 18px 17px 0 0 ;
+}
+.header .headFix .hd-nav .hd-nav-user a{
+    background: url('../img/hd-user.jpg');
+
+}
+.header .headFix .hd-nav .search a{
+    background: url('../img/hd-search.jpg');
+}
+.header .headFix .hd-nav a{
+    width:37px;
+    height: 37px;
+    display: block;
+}
+
+/*头部中部-logo-位置*/
+.header .headFix .hd-nav .hd-nav-province{
+    width: 212px;
+    height: 100%;
+    margin: auto;
+}
+
+.header .headFix .hd-nav .hd-nav-province .hd-logo{
+    padding-top: 18px;
+
+}
+.header .headFix .hd-nav .hd-nav-province .hd-logo a{
+    width: 115px;
+    height: 37px;
+
+    background: url('../img/hd-title.jpg');
+}
+
+.header .headFix .hd-nav .hd-nav-province .hd-location{
+    font-size: 23px;
+    padding-top: 18px;
+}
+
+.header .headFix .hd-nav .hd-nav-province .hd-location a{
+    width:80px;
+    height: 27px;
+}
+.header .headFix .hd-nav .hd-nav-province .hd-location a  i{
+    width: 22px;
+    height: 12px;
+    display: block;
+    background: url('../img/hd-select.jpg');
+    margin-top: 12px;
+}
+/*导航栏开始*/
+.header .hd-move{
+    height: 67px;
+    border: 1px solid red;
+    background: #39424a;
+    position: relative;
+}
+.header .hd-move ul{
+    height: 100%;
+   width: 300%;
+    position: absolute;
+}
+.header .hd-move ul li{
+    float: left;
+    height: 100%;
+    font-size: 24px;
+}
+.header .hd-move ul li a span{
+    color: #cfd3da;
+}
+.header .hd-move ul li a{
+    display: block;
+    border-left:2px solid #4a5259  ;
+    height: 43px;
+    padding:0 30px;
+    line-height: 43px;
+    margin-top:13px;
+}
+.header .hd-move ul li.active a span{
+    color: white;
+}
+.header .hd-move ul li.active a span{
+    border-bottom: 6px solid red;
+    padding-bottom: 6px;
+}
+/*导航栏结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+/*网页主体部分开始*/
+.main .slide{
+    height: 202px;
+    position: relative;
+}
+.main{
+    max-width: 660px;
+    margin:auto;
+    overflow: hidden;
+}
+.main .slide ul{
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+    height: 100%;
+}
+.main .slide ul li{
+    float: left;
+    width: 660px;
+}
+.main .slide .tab{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+.main .slide .tab span{
+    display:inline-block;
+    width:14px;
+    height: 14px;
+    border-radius: 50%;
+    background:yellow ;
+    margin-left:16px;
+}
+.main .slide .tab span.on{
+    background: red;
+}
+ .main .productClass {
+     width: 100%;
+ }
+.main .productClass ul{
+    display: -webkit-flex; /* Safari */
+  display: flex;
+}
+.main .productClass ul li{
+    float: left;
+}
+.main .productClass ul li a{
+    display: block;
+}
+.main .productClass ul li img{
+    width:100%;
+    height:100%;
+}
+
+/*新惠品打折开始*/
+.discount{
+
+}
+
+.discount dl{
+   display: flex;
+}
+.discount a{
+    display: block;
+    height: 100%;
+}
+
+.discount dl .dis-l {
+    flex: 1;
+}
+.discount dl .dis-r div{
+    flex: 1;
+}
+/*新惠品打折结束*/
+/*化妆品开始*/
+
+ .pub-buy ul{
+    display: flex;
+}
+.pub-buy ul li{
+    float: left;
+    flex: 1;
+}
+/*化妆品结束*/
+.skin ul li,.found ul li{
+    float: left;
+}
+.found ul{
+    display: flex;
+}
+.found ul li{
+    flex: 1;
+}
+.hotGoodShop ul li{
+    float: left;
+}
+.app .vipBg{
+    width: 383px;
+    height:72px ;
+    float: left;
+    background: url("../img/vipbg.jpg");
+}
+.app,footer .login{
+    padding: 16px 24px;
+}
+.app .appdownload a{
+    width: 122px;
+    height: 48px;
+    float: right;
+    border: 2px solid #cf3e8e ;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    color: #555;
+}
+
+.login a{
+    font-size: 25px;
+    color: #585c64;
+}
+footer p{
+    text-align: center;
+    font-size: 24px;
+    color: #999;
+}
+/*网页主体部分结束*/
+
+
+
